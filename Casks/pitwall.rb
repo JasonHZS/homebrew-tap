@@ -5,7 +5,7 @@ cask "pitwall" do
   url "https://github.com/JasonHZS/pitwall-collector/releases/download/v#{version}/Pitwall-#{version}.zip"
   name "Pitwall"
   desc "Local dashboard for Codex, Claude Code, Cursor, Pi and Devin sessions"
-  homepage "https://pitwall.oasislab.dev"
+  homepage "https://pitwall.oasislab.dev/"
 
   depends_on macos: :sequoia
 
