@@ -1,11 +1,12 @@
 cask "pitwall" do
-  version "0.3.0"
-  sha256 "cc7e16bd1bf03139db40b16105ca2cb87f55da2f304625d1a269eeb41c4f831e"
+  version "0.4.0"
+  sha256 "32cb41275dfe7a418ff384b8471e1c0b5931e5608c5651c94c6ea3307cb92886"
 
   url "https://github.com/JasonHZS/pitwall-collector/releases/download/v#{version}/Pitwall-#{version}.zip"
   name "Pitwall"
   desc "Local dashboard for Codex, Claude Code, Cursor, Pi and Devin sessions"
   homepage "https://pitwall.oasislab.dev/"
+  auto_updates true
 
   depends_on macos: :sequoia
 
