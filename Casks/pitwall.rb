@@ -1,6 +1,6 @@
 cask "pitwall" do
-  version "0.4.0"
-  sha256 "32cb41275dfe7a418ff384b8471e1c0b5931e5608c5651c94c6ea3307cb92886"
+  version "0.4.1"
+  sha256 "e1e6f9e881654050581a0c7aa9e8a1e7d6f790253ca611875b82ad13f206a308"
 
   url "https://github.com/JasonHZS/pitwall-collector/releases/download/v#{version}/Pitwall-#{version}.zip"
   name "Pitwall"
