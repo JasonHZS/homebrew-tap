@@ -4,7 +4,7 @@ cask "pitwall" do
 
   url "https://github.com/JasonHZS/pitwall-collector/releases/download/v#{version}/Pitwall-#{version}.zip"
   name "Pitwall"
-  desc "Menu bar for local coding-agent sessions on Apple silicon"
+  desc "Quick panel to monitor and return to local coding-agent sessions"
   homepage "https://pitwall.oasislab.dev/"
   auto_updates true
 
