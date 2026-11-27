@@ -1,10 +1,10 @@
 cask "pitwall" do
-  version "0.12.0"
-  sha256 "449170c36bd1fa6068538e3c1609f63d55d0a58cb512709f9a7292250e5490c9"
+  version "0.13.0"
+  sha256 "8ce7eed457feb550aca0940b7fe7e6f826f9125c3ef886235c5ed752759d1116"
 
   url "https://github.com/JasonHZS/pitwall-collector/releases/download/v#{version}/Pitwall-#{version}.zip"
   name "Pitwall"
-  desc "Quick panel to monitor and return to local coding-agent sessions"
+  desc "Menu bar for local coding-agent sessions on Apple silicon"
   homepage "https://pitwall.oasislab.dev/"
   auto_updates true
 
